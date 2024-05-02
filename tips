@@ -1,0 +1,12 @@
+# 连接联想模拟器    adb connect 127.0.0.1:11509
+# 查看连接的模拟器  adb devices
+# 获取包名及启动页  aapt dump badging + 软件包地址
+# 获取包名及启动页  adb shell dumpsys window windows | findstr mFocusedApp
+# 打开weditor     python -m weditor
+
+
+
+
+获取包名      device.info
+# devices(text='test').click()
+# devices(text='济宁环保车辆管控').click()
